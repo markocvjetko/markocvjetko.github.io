@@ -1,0 +1,170 @@
+\documentclass[a4paper]{article}
+
+\hyphenpenalty 10000
+\exhyphenpenalty 10000
+
+\usepackage[
+    top=0.79in,
+    bottom=0.79in,
+    left=0.79in,
+    right=0.79in,
+]{geometry}
+
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{array}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{10pt}
+\newlength{\tablewidth}
+
+\setlist[itemize]{topsep=0em, itemsep=0.0em}
+\setlist[itemize,1]{before=\vspace{-1em}}
+
+\newenvironment{period}[2]{%
+\newcommand{\sarma}{#2}%
+\setlength{\tablewidth}{\linewidth}
+\addtolength{\tablewidth}{-2\tabcolsep}
+\begin{tabular}{@{}p{0.75\tablewidth}>{\raggedleft\arraybackslash}p{0.25\tablewidth}@{}}%
+#1 \newline
+\begin{itemize}
+}{%
+\end{itemize} & \sarma \\%
+\end{tabular}\\
+}
+
+\newenvironment{skills}{%
+\setlength{\tablewidth}{\linewidth}
+\addtolength{\tablewidth}{-2\tabcolsep}
+\begin{tabular}{@{}p{0.15\tablewidth}p{0.85\tablewidth}@{}}
+}{%
+\end{tabular}
+}
+
+\titleformat{\section}{\uppercase}{}{0pt}{}[{\vspace{0.5em}\titlerule}]
+\titleformat{\subsection}{\bf}{}{0pt}{}{}
+\titlespacing{\section}{0pt}{1em}{0.5em}
+\titlespacing{\subsection}{0pt}{0pt}{0.1em}
+
+\begin{document}
+
+\fontfamily{\sfdefault}
+\selectfont
+
+\begin{minipage}{.5\textwidth}
+\LARGE{NAME REMOVED}\\
+\normalsize{10 000 Zagreb, Croatia}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+\raggedleft
++385 91 970 3281 \\
+\href{https://github.com/markocvjetko}{github}
+\end{minipage}
+
+\vspace{1em}
+
+\section{Work Experience}
+    \begin{period}{\textbf{Student Researcher, Neuro-Electronics Research Flanders (NERF)}}{Feb 2023 - current}
+        \item Applying deep learning methods to create a framework for extracting breathing signal from infrared footage of mouse nostrils.
+    \end{period}
+    \begin{period}{\textbf{Machine Learning Engineer Internship, DoXray}}{Jun 2022 - Sep 2022}
+        \item Experimenting with multimodal transformer models (LayoutLMs) on a named entity recognition task for visually rich documents.  
+    \end{period}
+\section{Projects}
+
+    \begin{period}{\textbf{Symbolic Music Synthesis Using Neuro Symbolic
+AI}}{May 2023 - Sep 2023}
+        \item goals: designing a semantic based regularization method for music generation via deep learning. Comparing generated sequences between various SBR methods and a non-SBR baseline model.
+    \end{period}
+\iffalse
+    \begin{period}{\textbf{MusAIc, Music Generation and Analysis using NLP methods}}{May 2022 - current}
+        \item goals: parsing digital music scores into text. Learning vector representations of music notes and phrases. Music generation as a NLG problem. Key signature prediction as a text classification problem.
+        \item stack: Python (PyTorch, Music21) 
+    \end{period}
+The second project (led by Sina Khajehabdollahi, Jeremy Perez and Marko Cjvetko) merged music with visually representable dynamical systems to create music-driven animations. The core idea was to extract musical features—such as tempo, frequency, and other parameters—and use them to manipulate a dynamical system in real-time. For this purpose, the team selected Lenia, a class of continuous cellular automata renowned for generating diverse, life-like patterns. By mapping musical features to Lenia’s parameters, they created a visually engaging, ever-evolving display of music-inspired animation. The implementation was built using TouchDesigner, a visual programming language for creating interactive multimedia content. This framework allows users to easily modify the interaction between music and Lenia, enabling efficient exploration of possible mappings. An example of how the audio signal and Lenia interact is shown in fig:ravelenia.
+
+\fi
+    \begin{period}{\textbf{Rave Lenia}}{Apr 2022 - Jun 2022}
+        \item goals: mapping musical features to parameters of Lenia (a continuous ceullular automata
+        \item stack: Python (HuggingFace Transformers, PyTorch, Pandas)
+    \end{period}
+    
+\section{education}
+\subsection{\textbf{University of Zagreb, Faculty of Electrical Engineering and Computing}, Croatia}
+\begin{period}{\textbf{Pursuing MSc in Computer Science}}{Sep 2021 -- Feb 2024\linebreak(expected)}
+    \item MSc thesis: Automatic merging of overlapping taxonomies based on the visual similarity of classes.
+    \item selected courses:
+        \textit{Text Analysis and Retrieval},
+        \textit{Machine Learning},
+        \textit{Deep Learning},
+        \textit{Soft Computing}
+\end{period}
+\begin{period}{\hspace{12} \textbf{Erasmus exchange at KU Leuven}}{Sep 2022 - Jul 2023}
+\item selected courses:
+        \textit{Reinforcement learning},
+        \textit{Uncertainty in AI},
+        \textit{Neural Computing},
+        \textit{Cognitive Science}
+        \textit{Philosophy of mnd}
+        
+\end{period}
+\begin{period}{\textbf{BSc in Computer Science}}{Sep 2016 -- Sep 2021}
+    \item BSc thesis: Music Synthesis using Artifical Intelligence 
+    
+    - Using an LSTM network to predict future notes in a symbolic representation of music
+    
+    \item selected courses:
+        \textit{Introduction to Artificial Intelligence},
+        \textit{Evolutionary Computation},
+        \textit{Design Patterns}
+\end{period}
+
+\vspace{-1.5em}
+
+\section{technical skills}
+
+\vspace{-1.5em}
+
+\begin{multicols}{4}
+
+
+\begin{itemize}
+
+\item  \textbf{Python}
+\item  \textbf{C}
+\end{itemize}
+
+\columnbreak
+\begin{itemize}
+
+\item  Java
+\item  R
+\end{itemize}
+\columnbreak
+
+\begin{itemize}
+        \item \textbf{GIT}
+        \item LaTeX
+    \end{itemize}
+    
+\columnbreak
+
+
+\begin{itemize}
+\item  \textbf{Linux}
+\item  Windows
+    \end{itemize}
+    
+\columnbreak
+\end{multicols}
+
+\section{other skills and interests}
+\begin{skills}
+    Languages & Croatian (native), English (advanced) \\
+    Interests & reinforcement learning, brain studies, biologically inspired algorithms, natural language processing, computer vision, AI in music, guitar, piano, climbing, drawing\\
+\end{skills}
+
+\end{document}

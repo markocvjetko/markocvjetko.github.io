@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Marko Cvjetko</title>
   <meta name="description" content="PhD student at Inria FLOWERS, working on artificial life, cellular automata, and curiosity-driven AI.">
+  <script>
+    (function () {
+      var stored = localStorage.getItem('theme');
+      if (stored === 'dark' || stored === 'light') {
+        document.documentElement.setAttribute('data-theme', stored);
+      }
+    })();
+  </script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,8 +24,10 @@
     <p class="links">
       <a href="mailto:marko.cvjetko1@gmail.com">email</a>
       <a href="https://github.com/markocvjetko">github</a>
+      <a href="https://scholar.google.co.uk/citations?hl=hr&user=WDyIW9QAAAAJ">scholar</a>
       <a href="cv.pdf">cv</a>
-      <!-- add scholar / orcid / twitter links here as desired -->
+      <a href="demos.html">demos</a>
+      <button id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
     </p>
   </header>
 
@@ -27,19 +37,43 @@
     </p>
   </section>
 
+  <section id="research">
+    <h2>Research</h2>
+    <p>
+      Complex systems &mdash; biological, ecological, computational &mdash; produce striking emergent behaviors that we still cannot reliably discover, characterize, or steer. The classical approach is hand-designed exploration: a researcher specifies what to look for, and a search procedure obliges. This scales poorly when the space of possible behaviors is large and the relevant axes of variation are unknown in advance.
+    </p>
+    <p>
+      I work on agents that learn what to look for. The systems I build combine autotelic reinforcement learning, generative models, and evolutionary search to autonomously propose goals, discover novel phenomena, and steer dynamical systems toward target behaviors &mdash; without the descriptors being specified up front. Recent work (under review) demonstrates closed-loop agents that generalize zero-shot to out-of-distribution control targets in continuous cellular automata, in collaboration with the <a href="https://drmichaellevin.org/">Levin Lab</a> at Tufts.
+    </p>
+    <p>
+      I see this line of work as an early step toward foundation models as engines of open-ended scientific discovery: agents that explore systems they have never seen before, surface non-obvious phenomena, and propose hypotheses for a human scientist to verify. My current focus is making the discovery loop more sample-efficient and more transferable across systems, with cellular automata as a tractable but unbounded testbed.
+    </p>
+  </section>
+
   <section id="publications">
     <h2>Publications</h2>
+
+    <h3>Under review</h3>
+    <ul class="pubs">
+      <li>
+        <span class="pub-title">The Artificial Experimentalist: discovery and control of self-organizing phenomena with autotelic reinforcement learning.</span>
+        <span class="pub-authors"><strong>M. Cvjetko</strong>, B. Hartl, M. Levin, C. Moulin-Frier, P.-Y. Oudeyer.</span>
+        <span class="pub-venue">Submitted to <em>ALIFE 2026</em>. In collaboration with the <a href="https://drmichaellevin.org/">Levin Lab</a>, Tufts University.</span>
+      </li>
+    </ul>
 
     <h3>Conference papers</h3>
     <ul class="pubs">
       <li>
         <span class="pub-title">Exploring Flow-Lenia universes with a curiosity-driven AI scientist: discovering diverse ecosystem dynamics.</span>
-        <span class="pub-venue">Proc. ALIFE 2025, pp. 633&ndash;643.</span>
+        <span class="pub-authors">T. Michel<sup>*</sup>, <strong>M. Cvjetko<sup>*</sup></strong>, G. Hamon, P.-Y. Oudeyer, C. Moulin-Frier.</span>
+        <span class="pub-venue"><em>Proc. ALIFE 2025</em>, pp. 633&ndash;643.</span>
         <a href="https://doi.org/10.1162/ISAL.a.896">doi</a>
       </li>
       <li>
         <span class="pub-title">Expedition &amp; Expansion: leveraging semantic representations for goal-directed exploration in continuous cellular automata.</span>
-        <span class="pub-venue">Proc. ALIFE 2025, pp. 73.</span>
+        <span class="pub-authors">S. Khajehabdollahi, G. Hamon, <strong>M. Cvjetko</strong>, P.-Y. Oudeyer, C. Moulin-Frier, C. Colas.</span>
+        <span class="pub-venue"><em>Proc. ALIFE 2025</em>, pp. 73.</span>
       </li>
     </ul>
 
@@ -47,7 +81,8 @@
     <ul class="pubs">
       <li>
         <span class="pub-title">Discovering and controlling diverse self-organised patterns in cellular automata using autotelic reinforcement learning.</span>
-        <span class="pub-venue">ALIFE 2025, Kyoto.</span>
+        <span class="pub-authors"><strong>M. Cvjetko</strong>, G. Hamon, C. Moulin-Frier, P.-Y. Oudeyer.</span>
+        <span class="pub-venue"><em>ALIFE 2025</em>, Kyoto.</span>
       </li>
     </ul>
 
@@ -55,7 +90,8 @@
     <ul class="pubs">
       <li>
         <span class="pub-title">Evolving symbiosis, from Barricelli's legacy to collective intelligence: a simulated and conceptual approach.</span>
-        <span class="pub-venue">ALICE 2026 workshop, Copenhagen. Runner-up award.</span>
+        <span class="pub-authors">J. Ashford, <strong>M. Cvjetko</strong>, R. L&ouml;ffler, B. Sakallioglu, A. Valerio, M. Tataryn, B. Hartl, L. Pio-Lopez, S. Nichele.</span>
+        <span class="pub-venue"><a href="https://aliceworkshop.org/">ALICE 2026 workshop</a>, Copenhagen. Runner-up award.</span>
       </li>
     </ul>
   </section>
@@ -64,12 +100,40 @@
     <h2>News</h2>
     <ul class="news">
       <!-- add new items at the top -->
-      <li><span class="date">2026 Mar</span> Runner-up award at the ALICE 2026 workshop in Copenhagen for our paper on simulated symbiosis.</li>
+      <li><span class="date">2026 Jun</span> Selected as a DISI fellow for the 2026 Diverse Intelligences Summer Institute!</li>
+      
+      <li><span class="date">2026 May</span> Two-week research visit to <a href="https://www.epfl.ch/labs/csft/">Cl&eacute;ment Hongler's group</a> at EPFL, around the <a href="https://www.dem.eco/">Demeco 2026</a> workshop.</li>
+      <li><span class="date">2026 Mar</span> Runner-up award at the <a href="https://aliceworkshop.org/">ALICE 2026 workshop</a> in Copenhagen for our paper on simulated symbiosis.</li>
+      <li><span class="date">2025</span> ALIFE 2025 paper invited for extension in the <em>Artificial Life</em> journal special issue (~5&ndash;8 papers selected from top-ranked submissions and best-paper nominees; 91 accepted at the conference).</li>
       <li><span class="date">2025 Oct</span> Two papers and a late-breaking abstract presented at ALIFE 2025 in Kyoto.</li>
       <li><span class="date">2024 Oct</span> Started my PhD in the FLOWERS team at Inria Bordeaux.</li>
     </ul>
   </section>
 
 </main>
+
+<script>
+  (function () {
+    var btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    var moon = '☾';
+    var sun = '☼';
+    function currentTheme() {
+      var attr = document.documentElement.getAttribute('data-theme');
+      if (attr === 'dark' || attr === 'light') return attr;
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    function render() {
+      btn.textContent = currentTheme() === 'dark' ? sun : moon;
+    }
+    render();
+    btn.addEventListener('click', function () {
+      var next = currentTheme() === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      render();
+    });
+  })();
+</script>
 </body>
 </html>
