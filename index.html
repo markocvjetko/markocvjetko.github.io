@@ -11,11 +11,19 @@
       if (stored === 'dark' || stored === 'light') {
         document.documentElement.setAttribute('data-theme', stored);
       }
+      if (localStorage.getItem('lenia') === 'off') {
+        document.documentElement.setAttribute('data-lenia', 'off');
+      }
     })();
   </script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<canvas id="lenia-bg" aria-hidden="true"></canvas>
+<div class="toggles">
+  <button id="lenia-toggle" type="button" aria-label="Toggle background animation" title="Toggle background animation">&#9673;</button>
+  <button id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
+</div>
 <main>
 
   <header>
@@ -27,7 +35,6 @@
       <a href="https://scholar.google.co.uk/citations?hl=hr&user=WDyIW9QAAAAJ">scholar</a>
       <a href="cv.pdf">cv</a>
       <a href="demos.html">demos</a>
-      <button id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
     </p>
   </header>
 
@@ -80,6 +87,16 @@
       </li>
     </ul>
 
+    <h3>Workshop papers</h3>
+    <ul class="pubs">
+      <li>
+        <span class="pub-title">Evolving symbiosis, from Barricelli's legacy to collective intelligence: a simulated and conceptual approach.</span>
+        <span class="pub-authors">J. Ashford, <strong>M. Cvjetko</strong>, R. L&ouml;ffler, B. Sakallioglu, A. Valerio, M. Tataryn, B. Hartl, L. Pio-Lopez, S. Nichele.</span>
+        <span class="pub-venue">Accepted to <em>GECCO 2026 Workshop Proceedings</em>. Runner-up award at <a href="https://aliceworkshop.org/">ALICE 2026 Workshop</a>, Copenhagen.</span>
+        <a href="https://arxiv.org/abs/2603.08463">arXiv</a>
+      </li>
+    </ul>
+
     <h3>Late-breaking abstracts</h3>
     <ul class="pubs">
       <li>
@@ -89,15 +106,13 @@
         <a href="https://developmentalsystems.org/rl-for-ca/">project page</a>
       </li>
     </ul>
+  </section>
 
-    <h3>Workshop papers</h3>
-    <ul class="pubs">
-      <li>
-        <span class="pub-title">Evolving symbiosis, from Barricelli's legacy to collective intelligence: a simulated and conceptual approach.</span>
-        <span class="pub-authors">J. Ashford, <strong>M. Cvjetko</strong>, R. L&ouml;ffler, B. Sakallioglu, A. Valerio, M. Tataryn, B. Hartl, L. Pio-Lopez, S. Nichele.</span>
-        <span class="pub-venue">Accepted to <em>GECCO 2026 Workshop Proceedings</em>. Runner-up award at <a href="https://aliceworkshop.org/">ALICE 2026 Workshop</a>, Copenhagen.</span>
-        <a href="https://arxiv.org/abs/2603.08463">arXiv</a>
-      </li>
+  <section id="service">
+    <h2>Service &amp; supervision</h2>
+    <ul class="service">
+      <li>Reviewer, <em>ALIFE 2026</em>.</li>
+      <li>Co-supervising a Master's intern on the emergence of memory and learning in cellular automata, and two BSc students on a project investigating Turing-completeness in Lenia.</li>
     </ul>
   </section>
 
@@ -140,6 +155,29 @@
       render();
     });
   })();
+
+  (function () {
+    var btn = document.getElementById('lenia-toggle');
+    if (!btn) return;
+    var on = '◉';
+    var off = '○';
+    function isOn() {
+      return document.documentElement.getAttribute('data-lenia') !== 'off';
+    }
+    function render() { btn.textContent = isOn() ? on : off; }
+    render();
+    btn.addEventListener('click', function () {
+      if (isOn()) {
+        document.documentElement.setAttribute('data-lenia', 'off');
+        localStorage.setItem('lenia', 'off');
+      } else {
+        document.documentElement.removeAttribute('data-lenia');
+        localStorage.setItem('lenia', 'on');
+      }
+      render();
+    });
+  })();
 </script>
+<script src="lenia.js" defer></script>
 </body>
 </html>

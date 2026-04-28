@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.3)  28 APR 2026 01:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.3)  28 APR 2026 02:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,58 +428,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--115
 
  []
 
-
-Package hyperref Warning: Suppressing link with empty target on input line 121.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--126
-
- []
-
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
 dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-su
 per-ts1.enc}]
+
+Package hyperref Warning: Suppressing link with empty target on input line 121.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--127
+
+ []
+
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    }
-l.129 ...omputer Science}}}}{Sep 2021 -- Jul 2024}
+l.130 ...omputer Science}}}}{Sep 2021 -- Jul 2024}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    }
-l.129 ...omputer Science}}}}{Sep 2021 -- Jul 2024}
+l.130 ...omputer Science}}}}{Sep 2021 -- Jul 2024}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    }
-l.129 ...omputer Science}}}}{Sep 2021 -- Jul 2024}
+l.130 ...omputer Science}}}}{Sep 2021 -- Jul 2024}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.132 ...{blue}{Prof. Sini\v{s}a \v{S}egvi\'{c}}}}
+l.133 ...{blue}{Prof. Sini\v{s}a \v{S}egvi\'{c}}}}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.132 ...{blue}{Prof. Sini\v{s}a \v{S}egvi\'{c}}}}
+l.133 ...{blue}{Prof. Sini\v{s}a \v{S}egvi\'{c}}}}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.132 ...{blue}{Prof. Sini\v{s}a \v{S}egvi\'{c}}}}
+l.133 ...{blue}{Prof. Sini\v{s}a \v{S}egvi\'{c}}}}
                                                   
 ? 
 
-Underfull \hbox (badness 1127) in paragraph at lines 135--140
+Underfull \hbox (badness 1127) in paragraph at lines 136--141
 []\T1/cmss/bx/n/10 Selected courses\T1/cmss/m/n/10 : [][]\T1/cmss/m/it/10 Ma-ch
 ine Learn-ing[][]\T1/cmss/m/n/10 , [][]\T1/cmss/m/it/10 Deep Learn-ing[][]\T1/c
 mss/m/n/10 , [][]\T1/cmss/m/it/10 Soft Com-put-ing[][]\T1/cmss/m/n/10 , [][]\T1
@@ -489,207 +489,207 @@ mss/m/n/10 , [][]\T1/cmss/m/it/10 Soft Com-put-ing[][]\T1/cmss/m/n/10 , [][]\T1
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.143 ... Flanders, Belgium}{Sep 2022 -- Jul 2023}
+l.144 ... Flanders, Belgium}{Sep 2022 -- Jul 2023}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.146 ...24}{\textcolor{blue}{Cognitive Science}}}
+l.147 ...24}{\textcolor{blue}{Cognitive Science}}}
                                                   ,
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.146 ...24}{\textcolor{blue}{Cognitive Science}}}
+l.147 ...24}{\textcolor{blue}{Cognitive Science}}}
                                                   ,
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.146 ...24}{\textcolor{blue}{Cognitive Science}}}
+l.147 ...24}{\textcolor{blue}{Cognitive Science}}}
                                                   ,
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.147 ...0}{\textcolor{blue}{Philosophy of Mind}}}
+l.148 ...0}{\textcolor{blue}{Philosophy of Mind}}}
                                                   ,
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.147 ...0}{\textcolor{blue}{Philosophy of Mind}}}
+l.148 ...0}{\textcolor{blue}{Philosophy of Mind}}}
                                                   ,
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.147 ...0}{\textcolor{blue}{Philosophy of Mind}}}
+l.148 ...0}{\textcolor{blue}{Philosophy of Mind}}}
                                                   ,
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.148 ...2}{\textcolor{blue}{Linguistics and AI}}}
+l.149 ...2}{\textcolor{blue}{Linguistics and AI}}}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.148 ...2}{\textcolor{blue}{Linguistics and AI}}}
+l.149 ...2}{\textcolor{blue}{Linguistics and AI}}}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.148 ...2}{\textcolor{blue}{Linguistics and AI}}}
+l.149 ...2}{\textcolor{blue}{Linguistics and AI}}}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.149 ...56}{\textcolor{blue}{Uncertainty in AI}}}
+l.150 ...56}{\textcolor{blue}{Uncertainty in AI}}}
                                                   ,
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.149 ...56}{\textcolor{blue}{Uncertainty in AI}}}
+l.150 ...56}{\textcolor{blue}{Uncertainty in AI}}}
                                                   ,
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.149 ...56}{\textcolor{blue}{Uncertainty in AI}}}
+l.150 ...56}{\textcolor{blue}{Uncertainty in AI}}}
                                                   ,
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.150 ...304}{\textcolor{blue}{Neural Computing}}}
+l.151 ...304}{\textcolor{blue}{Neural Computing}}}
                                                   ,
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.150 ...304}{\textcolor{blue}{Neural Computing}}}
+l.151 ...304}{\textcolor{blue}{Neural Computing}}}
                                                   ,
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
-l.150 ...304}{\textcolor{blue}{Neural Computing}}}
+l.151 ...304}{\textcolor{blue}{Neural Computing}}}
                                                   ,
 ? 
 
-Overfull \hbox (4.44334pt too wide) in paragraph at lines 129--157
+Overfull \hbox (4.44334pt too wide) in paragraph at lines 130--158
   [] 
  []
 
 
-Overfull \hbox (4.44334pt too wide) in paragraph at lines 129--157
+Overfull \hbox (4.44334pt too wide) in paragraph at lines 130--158
   [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--157
+Underfull \hbox (badness 10000) in paragraph at lines 130--158
 
  []
 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.161 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
+l.162 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.161 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
+l.162 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.161 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
+l.162 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.161 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
+l.162 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.161 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
+l.162 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.161 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
+l.162 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.162 ...extcolor{blue}{Prof. Sebastian Haesler}}}
+l.163 ...extcolor{blue}{Prof. Sebastian Haesler}}}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.162 ...extcolor{blue}{Prof. Sebastian Haesler}}}
+l.163 ...extcolor{blue}{Prof. Sebastian Haesler}}}
                                                   
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.162 ...extcolor{blue}{Prof. Sebastian Haesler}}}
+l.163 ...extcolor{blue}{Prof. Sebastian Haesler}}}
                                                   
 ? 
 
-Underfull \hbox (badness 2401) in paragraph at lines 163--164
+Underfull \hbox (badness 2401) in paragraph at lines 164--165
 \T1/cmss/m/n/10 re-sponses of head-restrained mice from in-frared footage, in c
 ol-lab-o-ra-tion with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--167
+Underfull \hbox (badness 10000) in paragraph at lines 162--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--180
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 
  []
 
 [2]
-Underfull \hbox (badness 1043) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 177--181
+
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 183--184
 []\T1/cmss/m/n/10 Real-time music-driven Le-nia an-i-ma-tions: tempo and fre-qu
 ency fea-tures drive a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--184
+Underfull \hbox (badness 10000) in paragraph at lines 182--185
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--188
+Underfull \hbox (badness 10000) in paragraph at lines 186--189
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--192
+Underfull \hbox (badness 10000) in paragraph at lines 190--193
 
  []
 
@@ -700,16 +700,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.195     \end{period}
+l.196     \end{period}
                       
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--196
+Underfull \hbox (badness 10000) in paragraph at lines 194--197
 
  []
 
 
-Overfull \hbox (2.22166pt too wide) in paragraph at lines 200--207
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 201--208
 [][]  
  []
 
@@ -724,7 +724,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  9986 strings out of 476182
  152567 string characters out of 5795595
- 1948975 words of memory out of 5000000
+ 1945975 words of memory out of 5000000
  31891 multiletter control sequences out of 15000+600000
  564625 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -737,10 +737,10 @@ ublic/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1
 texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/pu
 blic/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx17
 28.pfb>
-Output written on cv.pdf (3 pages, 152304 bytes).
+Output written on cv.pdf (3 pages, 153061 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
+ 160 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
  12 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
