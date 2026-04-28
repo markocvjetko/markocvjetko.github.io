@@ -60,7 +60,7 @@ main {
   height: 100%;
   z-index: 0;
   pointer-events: none;
-  opacity: 0.13;
+  opacity: 0.22;
   image-rendering: auto;
 }
 
@@ -83,11 +83,22 @@ header h1 {
 }
 
 .links { margin: 0; }
-.links a + a::before {
+.links > * + *::before {
   content: " \00b7 ";
   color: var(--muted);
   margin: 0 .15rem;
 }
+.links button {
+  background: none;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  line-height: 1;
+  vertical-align: baseline;
+}
+.links button:hover { color: var(--fg); }
 
 section { margin-top: 2.75rem; }
 
@@ -202,27 +213,6 @@ ul.pubs li a {
   font-size: .9rem;
   margin-right: .4rem;
 }
-
-.toggles {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  gap: .35rem;
-}
-.toggles button {
-  background: none;
-  border: none;
-  color: var(--muted);
-  cursor: pointer;
-  font: inherit;
-  font-size: 1.3rem;
-  padding: .15rem .3rem;
-  line-height: 1;
-}
-.toggles button:hover { color: var(--fg); }
 
 :root[data-lenia="off"] #lenia-bg { display: none; }
 
