@@ -11,7 +11,7 @@
   canvas.height = NH;
 
   const R = 13;
-  const dt = 0.1;
+  const dt = 0.04;
   const mu = 0.15;
   const sigma = 0.015;
   const kStd = 0.15;
@@ -183,7 +183,7 @@
   let last = 0;
   let raf = 0;
   function loop(t) {
-    if (t - last > 50) {
+    if (t - last > 20) {
       step();
       render();
       last = t;
