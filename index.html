@@ -15,10 +15,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<video id="lenia-bg" aria-hidden="true" autoplay muted loop playsinline preload="metadata" poster="">
-  <source src="assets/flowlenia-bg.mp4" type="video/mp4">
-</video>
+<video id="lenia-bg" aria-hidden="true" autoplay muted loop playsinline preload="metadata"></video>
 <canvas id="lenia-bg-fallback" aria-hidden="true"></canvas>
+<script>
+  (function () {
+    var videos = [
+      'assets/flowlenia-bg-1000.mp4',
+      'assets/flowlenia-bg-5104.mp4',
+      'assets/flowlenia-bg-6037.mp4',
+      'assets/flowlenia-bg-10552.mp4'
+    ];
+    var v = document.getElementById('lenia-bg');
+    if (v) v.src = videos[Math.floor(Math.random() * videos.length)];
+  })();
+</script>
 <main>
 
   <header>
