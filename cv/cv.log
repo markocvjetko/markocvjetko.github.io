@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.3)  28 APR 2026 10:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.3)  28 APR 2026 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -406,12 +406,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Overfull \hbox (13.6036pt too wide) in paragraph at lines 88--91
 \T1/cmss/bx/n/10 Ex-pe-di-tion & Ex-pan-sion: Lever-ag-ing Se-man-tic Rep-re-se
 n-ta-tions for Goal-Directed Ex-plo-ration in Con-tin-u-ous
- []
-
-
-Overfull \hbox (4.97516pt too wide) in paragraph at lines 88--91
-\T1/cmss/m/it/10 VLM-generated lin-guis-tic goals, pro-vid-ing ev-i-dence that 
-VLM-generated goals act as step-ping stones into un-ex-plored
  []
 
 
@@ -824,7 +818,7 @@ type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfsi1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sfsx1728.pfb>
-Output written on cv.pdf (3 pages, 129729 bytes).
+Output written on cv.pdf (3 pages, 129703 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  134 compressed objects within 2 object streams
