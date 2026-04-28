@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.3)  28 APR 2026 10:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.3)  28 APR 2026 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,9 +409,9 @@ n-ta-tions for Goal-Directed Ex-plo-ration in Con-tin-u-ous
  []
 
 
-Overfull \hbox (3.72546pt too wide) in paragraph at lines 88--91
+Overfull \hbox (4.97516pt too wide) in paragraph at lines 88--91
 \T1/cmss/m/it/10 VLM-generated lin-guis-tic goals, pro-vid-ing ev-i-dence that 
-LLM-generated goals act as step-ping stones into un-ex-plored
+VLM-generated goals act as step-ping stones into un-ex-plored
  []
 
 
@@ -529,19 +529,19 @@ l.144 ...0}{\textcolor{blue}{Philosophy of Mind}}}
 <to be read again> 
                    a
 l.145 ...2}{\textcolor{blue}{Linguistics and AI}}}
-                                                  
+                                                  ,
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
 l.145 ...2}{\textcolor{blue}{Linguistics and AI}}}
-                                                  
+                                                  ,
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    a
 l.145 ...2}{\textcolor{blue}{Linguistics and AI}}}
-                                                  
+                                                  ,
 ? 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
@@ -649,12 +649,6 @@ l.159 ...extcolor{blue}{Prof. Sebastian Haesler}}}
                                                   
 ? 
 
-Underfull \hbox (badness 2401) in paragraph at lines 160--161
-\T1/cmss/m/n/10 re-sponses of head-restrained mice from in-frared footage, in c
-ol-lab-o-ra-tion with
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 158--164
 
  []
@@ -715,21 +709,14 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 197--206
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-Package rerunfilecheck Warning: File `cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  B443045DC4691491D36FC5ED90803FD4;1554.
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: B443045DC4691491D36FC5ED90803FD4;1554.
  ) 
 Here is how much of TeX's memory you used:
- 9976 strings out of 476182
- 152452 string characters out of 5795595
+ 9985 strings out of 476182
+ 152552 string characters out of 5795595
  1948975 words of memory out of 5000000
- 31881 multiletter control sequences out of 15000+600000
+ 31890 multiletter control sequences out of 15000+600000
  563811 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,9n,79p,1122b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -739,10 +726,10 @@ type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfsi1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sfsx1728.pfb>
-Output written on cv.pdf (3 pages, 129220 bytes).
+Output written on cv.pdf (3 pages, 129729 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 155 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
  12 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
