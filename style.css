@@ -1,30 +1,4 @@
 :root {
-  --bg: #fefefe;
-  --fg: #1a1a1a;
-  --muted: #6b6b6b;
-  --accent: #0066cc;
-  --rule: #e6e6e6;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #121212;
-    --fg: #e8e8e8;
-    --muted: #9a9a9a;
-    --accent: #6aa9ff;
-    --rule: #2a2a2a;
-  }
-}
-
-:root[data-theme="light"] {
-  --bg: #fefefe;
-  --fg: #1a1a1a;
-  --muted: #6b6b6b;
-  --accent: #0066cc;
-  --rule: #e6e6e6;
-}
-
-:root[data-theme="dark"] {
   --bg: #121212;
   --fg: #e8e8e8;
   --muted: #9a9a9a;
@@ -64,15 +38,10 @@ main {
 }
 
 #lenia-bg {
-  opacity: 0.55;
+  opacity: 0.32;
   filter: blur(18px) saturate(1.15);
   mix-blend-mode: screen;
   transform: scale(1.08);
-}
-
-:root[data-theme="light"] #lenia-bg,
-:root:not([data-theme="dark"]) #lenia-bg {
-  opacity: 0.45;
 }
 
 #lenia-bg-fallback {

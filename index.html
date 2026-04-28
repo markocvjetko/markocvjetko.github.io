@@ -7,10 +7,6 @@
   <meta name="description" content="PhD student at Inria FLOWERS, working on artificial life, cellular automata, and curiosity-driven AI.">
   <script>
     (function () {
-      var stored = localStorage.getItem('theme');
-      if (stored === 'dark' || stored === 'light') {
-        document.documentElement.setAttribute('data-theme', stored);
-      }
       if (localStorage.getItem('lenia') === 'off') {
         document.documentElement.setAttribute('data-lenia', 'off');
       }
@@ -35,7 +31,6 @@
       <a href="cv.pdf">cv</a>
       <a href="demos.html">demos</a>
       <button id="lenia-toggle" type="button" aria-label="Toggle background animation" title="Toggle background animation">&#9673;</button>
-      <button id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
     </p>
   </header>
 
@@ -121,11 +116,11 @@
     <h2>News</h2>
     <ul class="news">
       <!-- add new items at the top -->
-      <li><span class="date">2026 Apr</span> Our paper on evolving symbiogenesis accepted to the <em>GECCO 2026</em> Workshop track.</li>
+      <li><span class="date">2026 Apr</span> Our paper <em>Evolving Symbiosis, from Barricelli's Legacy to Collective Intelligence: a Simulated and Conceptual Approach</em> accepted to the <em>GECCO 2026</em> Workshop track.</li>
       <li><span class="date">2026 Jun</span> Selected as a fellow for the 2026 <a href="https://diverseintelligencesummer.com/">Diverse Intelligences Summer Institute</a> &mdash; a 3-week transdisciplinary residency on the origins, nature, and future of intelligences.</li>
       
       <li><span class="date">2026 May</span> Two-week research visit to <a href="https://www.epfl.ch/labs/csft/">Cl&eacute;ment Hongler's group</a> at EPFL, around the <a href="https://www.dem.eco/">Demeco 2026</a> workshop.</li>
-      <li><span class="date">2026 Mar</span> Runner-up award at the <a href="https://aliceworkshop.org/">ALICE 2026 workshop</a> in Copenhagen for our paper on simulated symbiosis.</li>
+      <li><span class="date">2026 Mar</span> Runner-up award at the <a href="https://aliceworkshop.org/">ALICE 2026 workshop</a> in Copenhagen for our project on symbiogenesis.</li>
       <li><span class="date">2026 Feb</span> ALIFE 2025 paper invited for extension in the <em>Artificial Life</em> journal special issue.</li>
       <li><span class="date">2025 Oct</span> Two papers and a late-breaking abstract presented at ALIFE 2025 in Kyoto.</li>
       <li><span class="date">2024 Oct</span> Started my PhD in the FLOWERS team at Inria Bordeaux.</li>
@@ -135,28 +130,6 @@
 </main>
 
 <script>
-  (function () {
-    var btn = document.getElementById('theme-toggle');
-    if (!btn) return;
-    var moon = '☾';
-    var sun = '☼';
-    function currentTheme() {
-      var attr = document.documentElement.getAttribute('data-theme');
-      if (attr === 'dark' || attr === 'light') return attr;
-      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    }
-    function render() {
-      btn.textContent = currentTheme() === 'dark' ? sun : moon;
-    }
-    render();
-    btn.addEventListener('click', function () {
-      var next = currentTheme() === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
-      render();
-    });
-  })();
-
   (function () {
     var btn = document.getElementById('lenia-toggle');
     if (!btn) return;
