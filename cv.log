@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.3)  28 APR 2026 09:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.3)  28 APR 2026 10:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -398,11 +398,6 @@ LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-Overfull \hbox (1.25385pt too wide) in paragraph at lines 77--79
-\T1/cmss/m/n/10 sci-en-tists that au-tonomously dis-cover and con-trol self-org
-anizing phe-nom-ena, draw-ing on au-totelic RL, vision--language
- []
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -736,18 +731,18 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  9985 strings out of 476182
  152552 string characters out of 5795595
- 1946975 words of memory out of 5000000
+ 1947975 words of memory out of 5000000
  31890 multiletter control sequences out of 15000+600000
  563811 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,9n,79p,905b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,1122b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfsi1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sfsx1728.pfb>
-Output written on cv.pdf (3 pages, 129979 bytes).
+Output written on cv.pdf (3 pages, 130111 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  133 compressed objects within 2 object streams
