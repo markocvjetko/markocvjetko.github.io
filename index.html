@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<video id="lenia-bg" aria-hidden="true" autoplay muted loop playsinline preload="metadata"></video>
+<video id="lenia-bg" aria-hidden="true" autoplay muted loop playsinline disableremoteplayback preload="auto"></video>
 <canvas id="lenia-bg-fallback" aria-hidden="true"></canvas>
 <script>
   (function () {
@@ -26,7 +26,17 @@
       'assets/flowlenia-bg-10552.mp4'
     ];
     var v = document.getElementById('lenia-bg');
-    if (v) v.src = videos[Math.floor(Math.random() * videos.length)];
+    if (!v) return;
+    v.muted = true;
+    v.src = videos[Math.floor(Math.random() * videos.length)];
+    v.load();
+    function tryPlay() {
+      var p = v.play();
+      if (p && typeof p.catch === 'function') p.catch(function () {});
+    }
+    tryPlay();
+    document.addEventListener('touchstart', tryPlay, { once: true, passive: true });
+    document.addEventListener('click', tryPlay, { once: true });
   })();
 </script>
 <main>
@@ -35,7 +45,7 @@
     <h1>Marko Cvjetko</h1>
     <p class="affiliation">PhD student &middot; Inria FLOWERS &middot; University of Bordeaux</p>
     <p class="links">
-      <a href="mailto:marko.cvjetko1@gmail.com">email</a>
+      <a href="mailto:marko.cvjetko@inria.fr">email</a>
       <a href="https://github.com/markocvjetko">github</a>
       <a href="https://scholar.google.co.uk/citations?hl=hr&user=WDyIW9QAAAAJ">scholar</a>
       <a href="cv.pdf">cv</a>

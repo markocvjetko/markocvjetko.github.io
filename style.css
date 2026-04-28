@@ -38,10 +38,8 @@ main {
 }
 
 #lenia-bg {
-  opacity: 0.32;
-  filter: blur(18px) saturate(1.15);
-  mix-blend-mode: screen;
-  transform: scale(1.08);
+  opacity: 0.45;
+  filter: blur(16px) saturate(1.15);
 }
 
 #lenia-bg-fallback {
