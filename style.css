@@ -71,6 +71,12 @@ header h1 {
   color: var(--muted);
 }
 
+.tags {
+  color: var(--muted);
+  font-size: .92rem;
+  margin-top: -.4rem;
+}
+
 .links { margin: 0; }
 .links > * + *::before {
   content: " \00b7 ";
