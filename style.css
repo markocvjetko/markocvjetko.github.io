@@ -53,15 +53,37 @@ main {
   z-index: 1;
 }
 
-#lenia-bg {
+#lenia-bg, #lenia-bg-fallback {
   position: fixed;
   inset: 0;
   width: 100%;
   height: 100%;
   z-index: 0;
   pointer-events: none;
+  object-fit: cover;
+}
+
+#lenia-bg {
+  opacity: 0.55;
+  filter: blur(18px) saturate(1.15);
+  mix-blend-mode: screen;
+  transform: scale(1.08);
+}
+
+:root[data-theme="light"] #lenia-bg,
+:root:not([data-theme="dark"]) #lenia-bg {
+  opacity: 0.45;
+}
+
+#lenia-bg-fallback {
   opacity: 0.35;
   image-rendering: auto;
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #lenia-bg { display: none; }
+  #lenia-bg-fallback { display: none; }
 }
 
 a {
@@ -214,7 +236,8 @@ ul.pubs li a {
   margin-right: .4rem;
 }
 
-:root[data-lenia="off"] #lenia-bg { display: none; }
+:root[data-lenia="off"] #lenia-bg,
+:root[data-lenia="off"] #lenia-bg-fallback { display: none; }
 
 @media (max-width: 520px) {
   main { padding: 2.5rem 1.1rem 4rem; }

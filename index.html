@@ -19,7 +19,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<canvas id="lenia-bg" aria-hidden="true"></canvas>
+<video id="lenia-bg" aria-hidden="true" autoplay muted loop playsinline preload="metadata" poster="">
+  <source src="assets/flowlenia-bg.mp4" type="video/mp4">
+</video>
+<canvas id="lenia-bg-fallback" aria-hidden="true"></canvas>
 <main>
 
   <header>
@@ -72,7 +75,7 @@
     <ul class="pubs">
       <li>
         <span class="pub-title">Exploring Flow-Lenia universes with a curiosity-driven AI scientist: discovering diverse ecosystem dynamics.</span>
-        <span class="pub-authors">T. Michel<sup>*</sup>, <strong>M. Cvjetko<sup>*</sup></strong>, G. Hamon, P.-Y. Oudeyer, C. Moulin-Frier.</span>
+        <span class="pub-authors">T. Michel, <strong>M. Cvjetko</strong> <strong>(co-first authors)</strong>, G. Hamon, P.-Y. Oudeyer, C. Moulin-Frier.</span>
         <span class="pub-venue"><em>Proc. ALIFE 2025</em>, pp. 633&ndash;643.</span>
         <a href="https://doi.org/10.1162/ISAL.a.896">doi</a>
         <a href="https://developmentalsystems.org/Exploring-Flow-Lenia-Universes/">project page</a>
@@ -80,7 +83,7 @@
       <li>
         <span class="pub-title">Expedition &amp; Expansion: leveraging semantic representations for goal-directed exploration in continuous cellular automata.</span>
         <span class="pub-authors">S. Khajehabdollahi, G. Hamon, <strong>M. Cvjetko</strong>, P.-Y. Oudeyer, C. Moulin-Frier, C. Colas.</span>
-        <span class="pub-venue"><em>Proc. ALIFE 2025</em>, pp. 73.</span>
+        <span class="pub-venue"><em>Proc. ALIFE 2025</em>.</span>
         <a href="https://developmentalsystems.org/expedition_expansion/">project page</a>
       </li>
     </ul>
@@ -119,11 +122,11 @@
     <ul class="news">
       <!-- add new items at the top -->
       <li><span class="date">2026 Apr</span> Our paper on evolving symbiogenesis accepted to the <em>GECCO 2026</em> Workshop track.</li>
-      <li><span class="date">2026 Jun</span> Selected as a DISI fellow for the 2026 Diverse Intelligences Summer Institute!</li>
+      <li><span class="date">2026 Jun</span> Selected as a fellow for the 2026 <a href="https://diverseintelligencesummer.com/">Diverse Intelligences Summer Institute</a> &mdash; a 3-week transdisciplinary residency on the origins, nature, and future of intelligences.</li>
       
       <li><span class="date">2026 May</span> Two-week research visit to <a href="https://www.epfl.ch/labs/csft/">Cl&eacute;ment Hongler's group</a> at EPFL, around the <a href="https://www.dem.eco/">Demeco 2026</a> workshop.</li>
       <li><span class="date">2026 Mar</span> Runner-up award at the <a href="https://aliceworkshop.org/">ALICE 2026 workshop</a> in Copenhagen for our paper on simulated symbiosis.</li>
-      <li><span class="date">2025</span> ALIFE 2025 paper invited for extension in the <em>Artificial Life</em> journal special issue (~5&ndash;8 papers selected from top-ranked submissions and best-paper nominees; 91 accepted at the conference).</li>
+      <li><span class="date">2026 Feb</span> ALIFE 2025 paper invited for extension in the <em>Artificial Life</em> journal special issue.</li>
       <li><span class="date">2025 Oct</span> Two papers and a late-breaking abstract presented at ALIFE 2025 in Kyoto.</li>
       <li><span class="date">2024 Oct</span> Started my PhD in the FLOWERS team at Inria Bordeaux.</li>
     </ul>

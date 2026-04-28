@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.3)  28 APR 2026 02:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.3)  28 APR 2026 02:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -398,6 +398,11 @@ LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
+Overfull \hbox (9.04031pt too wide) in paragraph at lines 77--79
+[]\T1/cmss/m/n/10 I am a 2nd year PhD stu-dent build-ing curiosity-driven AI sc
+i-en-tists that au-tonomously dis-cover and con-trol self-organizing
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -406,6 +411,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Overfull \hbox (13.6036pt too wide) in paragraph at lines 88--91
 \T1/cmss/bx/n/10 Ex-pe-di-tion & Ex-pan-sion: Lever-ag-ing Se-man-tic Rep-re-se
 n-ta-tions for Goal-Directed Ex-plo-ration in Con-tin-u-ous
+ []
+
+
+Overfull \hbox (3.72546pt too wide) in paragraph at lines 88--91
+\T1/cmss/m/it/10 VLM-generated lin-guis-tic goals, pro-vid-ing ev-i-dence that 
+LLM-generated goals act as step-ping stones into un-ex-plored
  []
 
 
@@ -424,7 +435,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--111
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--115
+Package hyperref Warning: Suppressing link with empty target on input line 117.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--123
 
  []
 
@@ -433,53 +448,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--115
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
 dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-su
 per-ts1.enc}]
-
-Package hyperref Warning: Suppressing link with empty target on input line 121.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--127
-
- []
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   }
+l.126 ...omputer Science}}}}{Sep 2021 -- Jul 2024}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    }
-l.130 ...omputer Science}}}}{Sep 2021 -- Jul 2024}
+l.126 ...omputer Science}}}}{Sep 2021 -- Jul 2024}
                                                   
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   }
-l.130 ...omputer Science}}}}{Sep 2021 -- Jul 2024}
-                                                  
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   }
-l.130 ...omputer Science}}}}{Sep 2021 -- Jul 2024}
-                                                  
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   /
-l.133 ...{blue}{Prof. Sini\v{s}a \v{S}egvi\'{c}}}}
-                                                  
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   /
-l.133 ...{blue}{Prof. Sini\v{s}a \v{S}egvi\'{c}}}}
-                                                  
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   /
-l.133 ...{blue}{Prof. Sini\v{s}a \v{S}egvi\'{c}}}}
-                                                  
-? 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-Underfull \hbox (badness 1127) in paragraph at lines 136--141
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   }
+l.126 ...omputer Science}}}}{Sep 2021 -- Jul 2024}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.129 ...{blue}{Prof. Sini\v{s}a \v{S}egvi\'{c}}}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.129 ...{blue}{Prof. Sini\v{s}a \v{S}egvi\'{c}}}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.129 ...{blue}{Prof. Sini\v{s}a \v{S}egvi\'{c}}}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 132--137
 []\T1/cmss/bx/n/10 Selected courses\T1/cmss/m/n/10 : [][]\T1/cmss/m/it/10 Ma-ch
 ine Learn-ing[][]\T1/cmss/m/n/10 , [][]\T1/cmss/m/it/10 Deep Learn-ing[][]\T1/c
 mss/m/n/10 , [][]\T1/cmss/m/it/10 Soft Com-put-ing[][]\T1/cmss/m/n/10 , [][]\T1
@@ -489,193 +513,276 @@ mss/m/n/10 , [][]\T1/cmss/m/it/10 Soft Com-put-ing[][]\T1/cmss/m/n/10 , [][]\T1
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.144 ... Flanders, Belgium}{Sep 2022 -- Jul 2023}
+l.140 ... Flanders, Belgium}{Sep 2022 -- Jul 2023}
                                                   
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.147 ...24}{\textcolor{blue}{Cognitive Science}}}
-                                                  ,
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.147 ...24}{\textcolor{blue}{Cognitive Science}}}
-                                                  ,
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.147 ...24}{\textcolor{blue}{Cognitive Science}}}
-                                                  ,
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.148 ...0}{\textcolor{blue}{Philosophy of Mind}}}
-                                                  ,
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.148 ...0}{\textcolor{blue}{Philosophy of Mind}}}
-                                                  ,
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.148 ...0}{\textcolor{blue}{Philosophy of Mind}}}
-                                                  ,
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.149 ...2}{\textcolor{blue}{Linguistics and AI}}}
-                                                  
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.149 ...2}{\textcolor{blue}{Linguistics and AI}}}
-                                                  
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.149 ...2}{\textcolor{blue}{Linguistics and AI}}}
-                                                  
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.150 ...56}{\textcolor{blue}{Uncertainty in AI}}}
-                                                  ,
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.150 ...56}{\textcolor{blue}{Uncertainty in AI}}}
-                                                  ,
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.150 ...56}{\textcolor{blue}{Uncertainty in AI}}}
-                                                  ,
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.151 ...304}{\textcolor{blue}{Neural Computing}}}
-                                                  ,
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.151 ...304}{\textcolor{blue}{Neural Computing}}}
-                                                  ,
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   a
-l.151 ...304}{\textcolor{blue}{Neural Computing}}}
-                                                  ,
-? 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
-Overfull \hbox (4.44334pt too wide) in paragraph at lines 130--158
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.143 ...24}{\textcolor{blue}{Cognitive Science}}}
+                                                  ,
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.143 ...24}{\textcolor{blue}{Cognitive Science}}}
+                                                  ,
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.143 ...24}{\textcolor{blue}{Cognitive Science}}}
+                                                  ,
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.144 ...0}{\textcolor{blue}{Philosophy of Mind}}}
+                                                  ,
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.144 ...0}{\textcolor{blue}{Philosophy of Mind}}}
+                                                  ,
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.144 ...0}{\textcolor{blue}{Philosophy of Mind}}}
+                                                  ,
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.145 ...2}{\textcolor{blue}{Linguistics and AI}}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.145 ...2}{\textcolor{blue}{Linguistics and AI}}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.145 ...2}{\textcolor{blue}{Linguistics and AI}}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.146 ...56}{\textcolor{blue}{Uncertainty in AI}}}
+                                                  ,
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.146 ...56}{\textcolor{blue}{Uncertainty in AI}}}
+                                                  ,
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.146 ...56}{\textcolor{blue}{Uncertainty in AI}}}
+                                                  ,
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.147 ...304}{\textcolor{blue}{Neural Computing}}}
+                                                  ,
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.147 ...304}{\textcolor{blue}{Neural Computing}}}
+                                                  ,
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.147 ...304}{\textcolor{blue}{Neural Computing}}}
+                                                  ,
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+Overfull \hbox (4.44334pt too wide) in paragraph at lines 126--154
   [] 
  []
 
 
-Overfull \hbox (4.44334pt too wide) in paragraph at lines 130--158
+Overfull \hbox (4.44334pt too wide) in paragraph at lines 126--154
   [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--158
+Underfull \hbox (badness 10000) in paragraph at lines 126--154
 
  []
 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.162 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
+l.158 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
                                                   
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   /
-l.162 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
-                                                  
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   /
-l.162 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
-                                                  
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   /
-l.162 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
-                                                  
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   /
-l.162 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
-                                                  
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   /
-l.162 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
-                                                  
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   /
-l.163 ...extcolor{blue}{Prof. Sebastian Haesler}}}
-                                                  
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   /
-l.163 ...extcolor{blue}{Prof. Sebastian Haesler}}}
-                                                  
-? 
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   /
-l.163 ...extcolor{blue}{Prof. Sebastian Haesler}}}
-                                                  
-? 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-Underfull \hbox (badness 2401) in paragraph at lines 164--165
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.158 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.158 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.158 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.158 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.158 ...or{blue}{GitHub}})}{Mar 2023 -- Jul 2024}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.159 ...extcolor{blue}{Prof. Sebastian Haesler}}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.159 ...extcolor{blue}{Prof. Sebastian Haesler}}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.159 ...extcolor{blue}{Prof. Sebastian Haesler}}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 160--161
 \T1/cmss/m/n/10 re-sponses of head-restrained mice from in-frared footage, in c
 ol-lab-o-ra-tion with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--168
+Underfull \hbox (badness 10000) in paragraph at lines 158--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--172
+Underfull \hbox (badness 10000) in paragraph at lines 165--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--177
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 177--181
-
+Underfull \hbox (badness 1043) in paragraph at lines 179--180
+[]\T1/cmss/m/n/10 Real-time music-driven Le-nia an-i-ma-tions: tempo and fre-qu
+ency fea-tures drive a
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 183--184
-[]\T1/cmss/m/n/10 Real-time music-driven Le-nia an-i-ma-tions: tempo and fre-qu
-ency fea-tures drive a
+Underfull \hbox (badness 10000) in paragraph at lines 178--181
+
  []
 
 
@@ -689,27 +796,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--189
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--193
-
- []
-
-
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.196     \end{period}
+l.192     \end{period}
                       
-? 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--197
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--193
 
  []
 
 
-Overfull \hbox (2.22166pt too wide) in paragraph at lines 201--208
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 197--204
 [][]  
  []
 
@@ -719,28 +823,26 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: C8406BEBB33D421A4E42FD661AD11E6F;1515.
+(rerunfilecheck)             Checksum: C502B208AA2E60366B29D4D1FE751269;1942.
  ) 
 Here is how much of TeX's memory you used:
- 9986 strings out of 476182
- 152567 string characters out of 5795595
- 1945975 words of memory out of 5000000
- 31891 multiletter control sequences out of 15000+600000
- 564625 words of font info for 45 fonts, out of 8000000 for 9000
+ 9984 strings out of 476182
+ 152543 string characters out of 5795595
+ 1946975 words of memory out of 5000000
+ 31890 multiletter control sequences out of 15000+600000
+ 563811 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,9n,79p,832b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,943b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share
-/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1
-000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfso1000.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx17
-28.pfb>
-Output written on cv.pdf (3 pages, 153061 bytes).
+r/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfsi1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfsx1728.pfb>
+Output written on cv.pdf (3 pages, 129761 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
+ 150 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
  12 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

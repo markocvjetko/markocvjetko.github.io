@@ -1,16 +1,16 @@
 (function () {
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-  const canvas = document.getElementById('lenia-bg');
+  const canvas = document.getElementById('lenia-bg-fallback');
   if (!canvas) return;
   const ctx = canvas.getContext('2d', { alpha: true });
 
-  const NW = 144;
-  const NH = 80;
+  const NW = 180;
+  const NH = 100;
   canvas.width = NW;
   canvas.height = NH;
 
-  const R = 13;
+  const R = 18;
   const dt = 0.04;
   const mu = 0.15;
   const sigma = 0.015;
@@ -63,16 +63,45 @@
     [0,0,0,0,0,0,0,0,0.02,0.06,0.08,0.09,0.07,0.05,0.01,0,0,0,0,0]
   ];
 
+  // Bilinear-upscale the canonical Orbium (designed for R=13) to the current R.
+  const orbiumScaled = (function () {
+    const scale = R / 13;
+    const SH = orbium.length;
+    const SW = orbium[0].length;
+    const TH = Math.max(2, Math.round(SH * scale));
+    const TW = Math.max(2, Math.round(SW * scale));
+    const out = new Array(TH);
+    for (let y = 0; y < TH; y++) {
+      const row = new Array(TW);
+      const sy = (y / (TH - 1)) * (SH - 1);
+      const y0 = Math.floor(sy);
+      const y1 = Math.min(y0 + 1, SH - 1);
+      const fy = sy - y0;
+      for (let x = 0; x < TW; x++) {
+        const sx = (x / (TW - 1)) * (SW - 1);
+        const x0 = Math.floor(sx);
+        const x1 = Math.min(x0 + 1, SW - 1);
+        const fx = sx - x0;
+        const v0 = orbium[y0][x0] * (1 - fx) + orbium[y0][x1] * fx;
+        const v1 = orbium[y1][x0] * (1 - fx) + orbium[y1][x1] * fx;
+        row[x] = v0 * (1 - fy) + v1 * fy;
+      }
+      out[y] = row;
+    }
+    return out;
+  })();
+
   let A = new Float32Array(NW * NH);
   let B = new Float32Array(NW * NH);
-  const shiftTmp = new Float32Array(NW * NH);
 
   (function place() {
-    const oy = (NH >> 1) - 10;
-    const ox = (NW >> 1) - 10;
-    for (let y = 0; y < orbium.length; y++) {
-      for (let x = 0; x < orbium[y].length; x++) {
-        A[((oy + y + NH) % NH) * NW + ((ox + x + NW) % NW)] = orbium[y][x];
+    const oh = orbiumScaled.length;
+    const ow = orbiumScaled[0].length;
+    const oy = 0;
+    const ox = 0;
+    for (let y = 0; y < oh; y++) {
+      for (let x = 0; x < ow; x++) {
+        A[((oy + y + NH) % NH) * NW + ((ox + x + NW) % NW)] = orbiumScaled[y][x];
       }
     }
   })();
@@ -97,19 +126,6 @@
       }
     }
     const tmp = A; A = B; B = tmp;
-  }
-
-  // Toroidal vertical shift of the whole field. Positive n shifts content down.
-  function shiftFieldVertical(n) {
-    n = ((n % NH) + NH) % NH;
-    if (n === 0) return;
-    for (let y = 0; y < NH; y++) {
-      const src = (y - n + NH) % NH;
-      for (let x = 0; x < NW; x++) {
-        shiftTmp[y * NW + x] = A[src * NW + x];
-      }
-    }
-    A.set(shiftTmp);
   }
 
   // Plasma colormap (polynomial fit of matplotlib's plasma, by Matt Zucker).
@@ -143,30 +159,6 @@
     }
     ctx.putImageData(img, 0, 0);
   }
-
-  // Scroll-driven shift: scrolling down pushes the glider up through the world.
-  const SCROLL_FACTOR = 0.05;
-  let totalShift = 0;
-  let scrollScheduled = false;
-  function applyScrollShift() {
-    const target = Math.round(-window.scrollY * SCROLL_FACTOR);
-    const delta = target - totalShift;
-    if (delta !== 0) {
-      shiftFieldVertical(delta);
-      totalShift = target;
-    }
-  }
-  function onScroll() {
-    if (!scrollScheduled) {
-      scrollScheduled = true;
-      requestAnimationFrame(() => {
-        scrollScheduled = false;
-        applyScrollShift();
-      });
-    }
-  }
-  window.addEventListener('scroll', onScroll, { passive: true });
-  applyScrollShift(); // align with current scroll position on load
 
   function isLeniaOn() {
     return document.documentElement.getAttribute('data-lenia') !== 'off';
