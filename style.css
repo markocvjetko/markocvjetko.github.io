@@ -1,5 +1,5 @@
 :root {
-  --bg: #121212;
+  --bg: #000;
   --fg: #e8e8e8;
   --muted: #9a9a9a;
   --accent: #6aa9ff;
@@ -86,14 +86,14 @@ header h1 {
 .links button {
   background: none;
   border: none;
-  color: var(--muted);
+  color: var(--accent);
   cursor: pointer;
   font: inherit;
   padding: 0;
-  line-height: 1;
+  line-height: inherit;
   vertical-align: baseline;
 }
-.links button:hover { color: var(--fg); }
+.links button:hover { text-decoration: underline; }
 
 section { margin-top: 2.75rem; }
 
